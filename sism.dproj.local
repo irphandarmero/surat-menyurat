@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/30 15:44:19.000.581,=C:\Developments\Unit1.pas</Transaction>
+    <Transaction>2024/09/30 15:46:07.000.789,C:\Developments\surat-menyurat\uMain.pas=C:\Developments\Unit1.pas</Transaction>
+    <Transaction>2024/09/30 15:46:07.000.789,C:\Developments\surat-menyurat\uMain.dfm=C:\Developments\Unit1.dfm</Transaction>
+    <Transaction>2024/09/30 15:46:56.000.339,C:\Developments\surat-menyurat\sism.dproj=C:\Developments\Project1.dproj</Transaction>
+    <Transaction>2024/10/01 16:23:57.000.507,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/01 16:24:50.000.339,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\Form\uQueryDebugger.pas</Transaction>
+    <Transaction>2024/10/01 16:24:50.000.339,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\Form\uQueryDebugger.dfm</Transaction>
+    <Transaction>2024/10/01 21:53:48.000.900,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/01 21:56:04.000.090,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/01 21:56:41.000.847,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\uDm.pas</Transaction>
+    <Transaction>2024/10/01 21:56:41.000.847,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\uDm.dfm</Transaction>
+    <Transaction>2024/10/01 21:59:23.000.204,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/02 16:10:02.000.828,=C:\Developments\surat-menyurat\Units\Override.Standard.pas</Transaction>
+    <Transaction>2024/10/02 16:40:44.000.393,=C:\Developments\surat-menyurat\Form\uSetting.pas</Transaction>
+    <Transaction>2024/10/02 17:13:25.000.215,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\Form\uSuratMasuk.pas</Transaction>
+    <Transaction>2024/10/02 17:13:25.000.215,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\Form\uSuratMasuk.dfm</Transaction>
+    <Transaction>2024/10/23 18:22:42.000.817,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/23 18:23:07.000.622,C:\Developments\surat-menyurat\forms\uSuratMasukInput.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
+    <Transaction>2024/10/23 18:23:07.000.622,C:\Developments\surat-menyurat\forms\uSuratMasukInput.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

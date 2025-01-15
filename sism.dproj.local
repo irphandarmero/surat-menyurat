@@ -2,23 +2,39 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2024/09/30 15:44:19.000.581,=C:\Developments\Unit1.pas</Transaction>
-    <Transaction>2024/09/30 15:46:07.000.789,C:\Developments\surat-menyurat\uMain.pas=C:\Developments\Unit1.pas</Transaction>
-    <Transaction>2024/09/30 15:46:07.000.789,C:\Developments\surat-menyurat\uMain.dfm=C:\Developments\Unit1.dfm</Transaction>
-    <Transaction>2024/09/30 15:46:56.000.339,C:\Developments\surat-menyurat\sism.dproj=C:\Developments\Project1.dproj</Transaction>
+    <Transaction>2024/09/30 15:46:07.000.789,C:\Developments\Unit1.pas=C:\Developments\surat-menyurat\uMain.pas</Transaction>
+    <Transaction>2024/09/30 15:46:07.000.789,C:\Developments\Unit1.dfm=C:\Developments\surat-menyurat\uMain.dfm</Transaction>
+    <Transaction>2024/09/30 15:46:56.000.339,C:\Developments\Project1.dproj=C:\Developments\surat-menyurat\sism.dproj</Transaction>
     <Transaction>2024/10/01 16:23:57.000.507,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
-    <Transaction>2024/10/01 16:24:50.000.339,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\Form\uQueryDebugger.pas</Transaction>
-    <Transaction>2024/10/01 16:24:50.000.339,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\Form\uQueryDebugger.dfm</Transaction>
+    <Transaction>2024/10/01 16:24:50.000.339,C:\Developments\surat-menyurat\Form\uQueryDebugger.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
+    <Transaction>2024/10/01 16:24:50.000.339,C:\Developments\surat-menyurat\Form\uQueryDebugger.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
     <Transaction>2024/10/01 21:53:48.000.900,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
     <Transaction>2024/10/01 21:56:04.000.090,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
-    <Transaction>2024/10/01 21:56:41.000.847,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\uDm.pas</Transaction>
-    <Transaction>2024/10/01 21:56:41.000.847,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\uDm.dfm</Transaction>
+    <Transaction>2024/10/01 21:56:41.000.847,C:\Developments\surat-menyurat\uDm.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/01 21:56:41.000.847,C:\Developments\surat-menyurat\uDm.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
     <Transaction>2024/10/01 21:59:23.000.204,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
     <Transaction>2024/10/02 16:10:02.000.828,=C:\Developments\surat-menyurat\Units\Override.Standard.pas</Transaction>
     <Transaction>2024/10/02 16:40:44.000.393,=C:\Developments\surat-menyurat\Form\uSetting.pas</Transaction>
-    <Transaction>2024/10/02 17:13:25.000.215,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\Form\uSuratMasuk.pas</Transaction>
-    <Transaction>2024/10/02 17:13:25.000.215,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\Form\uSuratMasuk.dfm</Transaction>
+    <Transaction>2024/10/02 17:13:25.000.215,C:\Developments\surat-menyurat\Form\uSuratMasuk.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
+    <Transaction>2024/10/02 17:13:25.000.215,C:\Developments\surat-menyurat\Form\uSuratMasuk.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
     <Transaction>2024/10/23 18:22:42.000.817,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
-    <Transaction>2024/10/23 18:23:07.000.622,C:\Developments\surat-menyurat\forms\uSuratMasukInput.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
-    <Transaction>2024/10/23 18:23:07.000.622,C:\Developments\surat-menyurat\forms\uSuratMasukInput.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/10/23 18:23:07.000.622,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\forms\uSuratMasukInput.pas</Transaction>
+    <Transaction>2024/10/23 18:23:07.000.622,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\forms\uSuratMasukInput.dfm</Transaction>
+    <Transaction>2024/12/22 01:40:42.000.117,C:\Developments\surat-menyurat\units\Override.Standard.pas=</Transaction>
+    <Transaction>2024/12/22 01:40:55.000.675,C:\Developments\surat-menyurat\forms\uQueryDebugger.pas=</Transaction>
+    <Transaction>2024/12/22 01:41:17.000.387,=C:\Developments\lib-helper\uQueryDebugger.pas</Transaction>
+    <Transaction>2024/12/22 01:41:17.000.292,=C:\Developments\lib-helper\Override.Standard.pas</Transaction>
+    <Transaction>2024/12/24 17:28:50.000.264,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/12/24 17:31:12.000.491,C:\Developments\surat-menyurat\forms\uJenisSurat.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
+    <Transaction>2024/12/24 17:31:12.000.491,C:\Developments\surat-menyurat\forms\uJenisSurat.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/12/24 17:32:52.000.848,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/12/24 17:34:02.000.815,C:\Developments\surat-menyurat\forms\uJenisSuratDialog.pas=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/12/24 17:34:02.000.815,C:\Developments\surat-menyurat\forms\uJenisSuratDialog.dfm=C:\Developments\surat-menyurat\Unit1.dfm</Transaction>
+    <Transaction>2024/12/30 15:48:29.000.157,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 15:48:58.000.599,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\forms\uMitra.pas</Transaction>
+    <Transaction>2024/12/30 15:48:58.000.599,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\forms\uMitra.dfm</Transaction>
+    <Transaction>2024/12/30 16:06:51.000.163,=C:\Developments\surat-menyurat\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 16:07:30.000.374,C:\Developments\surat-menyurat\Unit1.dfm=C:\Developments\surat-menyurat\forms\uMitraInput.dfm</Transaction>
+    <Transaction>2024/12/30 16:07:30.000.374,C:\Developments\surat-menyurat\Unit1.pas=C:\Developments\surat-menyurat\forms\uMitraInput.pas</Transaction>
   </Transactions>
 </BorlandProject>

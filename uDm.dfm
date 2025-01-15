@@ -3,6 +3,12 @@ object dm: Tdm
   Height = 446
   Width = 720
   object Conn: TFDConnection
+    Params.Strings = (
+      'Database=surat_menyurat'
+      'User_Name=root'
+      'Password=irphandarmero'
+      'Server=localhost'
+      'DriverID=MySQL')
     Left = 16
     Top = 14
   end
@@ -2161,6 +2167,7 @@ object dm: Tdm
       Category = 'Master'
       Caption = 'Mitra'
       ImageIndex = 11
+      OnExecute = actMitraExecute
     end
     object actJenisSurat: TAction
       Category = 'Master'
@@ -2176,6 +2183,7 @@ object dm: Tdm
       Category = 'BottomMenu'
       Caption = 'Setting'
       ImageIndex = 1
+      OnExecute = actSettingExecute
     end
     object actLogin: TAction
       Category = 'BottomMenu'

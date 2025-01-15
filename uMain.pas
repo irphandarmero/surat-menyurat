@@ -70,8 +70,15 @@ end;
 
 procedure TfrmUtama.imgMenuClick(Sender: TObject);
 begin
-  if SV.Opened then SV.Close else SV.Open;
-  
+  if SV.Opened then
+  begin
+    SV.Close;
+    catMenuItems.ButtonOptions := [boFullSize,boGradientFill,boUsePlusMinus];
+  end else
+  begin
+  SV.Open;
+    catMenuItems.ButtonOptions := [boFullSize,boGradientFill,boShowCaptions,boUsePlusMinus];
+  end;
 end;
 
 procedure TfrmUtama.pcMainMouseDown(Sender: TObject; Button: TMouseButton;

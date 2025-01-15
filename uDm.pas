@@ -9,7 +9,8 @@ uses
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt, Data.DB,
   FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.Forms, Vcl.ComCtrls, Vcl.WinXctrls,
   IniFiles,uQueryDebugger, Override.Standard, System.ImageList, Vcl.ImgList,
-  Vcl.Controls, System.Actions, Vcl.ActnList;
+  Vcl.Controls, System.Actions, Vcl.ActnList, FireDAC.Phys.MySQL,
+  FireDAC.Phys.MySQLDef;
 
 type
   TOnCloseTab = procedure(sender : TObject) of Object;
@@ -35,6 +36,8 @@ type
     actSetting: TAction;
     actLogin: TAction;
     procedure actSuratMasukExecute(Sender: TObject);
+    procedure actSettingExecute(Sender: TObject);
+    procedure actMitraExecute(Sender: TObject);
   private
     { Private declarations }
   public
@@ -60,7 +63,7 @@ implementation
 
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
-uses uMain, uSuratMasuk;
+uses uMain, uSuratMasuk, uSetting, uMitra;
 
 {$R *.dfm}
 procedure Tdm.LoadSettings;
@@ -128,6 +131,16 @@ begin
   if Assigned(AForm.OnShow) then
   AForm.OnShow(AForm);
 end;
+procedure Tdm.actMitraExecute(Sender: TObject);
+begin
+ OpenTab(frmMitra);
+end;
+
+procedure Tdm.actSettingExecute(Sender: TObject);
+begin
+  OpenTab(frmSetting);
+end;
+
 procedure Tdm.actSuratMasukExecute(Sender: TObject);
 begin
   OpenTab(frmSuratMasuk);

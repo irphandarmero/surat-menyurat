@@ -34,6 +34,12 @@
         <Cfg_1>true</Cfg_1>
         <Base>true</Base>
     </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win64)'!=''">
+        <Cfg_1_Win64>true</Cfg_1_Win64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
         <Cfg_2>true</Cfg_2>
         <CfgParent>Base</CfgParent>
@@ -41,6 +47,12 @@
     </PropertyGroup>
     <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
         <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win64)'!=''">
+        <Cfg_2_Win64>true</Cfg_2_Win64>
         <CfgParent>Cfg_2</CfgParent>
         <Cfg_2>true</Cfg_2>
         <Base>true</Base>
@@ -70,6 +82,12 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;dxFlowChartRS26;dxPSdxMapControlLnkRS26;DBXDb2Driver;vclactnband;dxBarRS26;vclFireDAC;dxFireDACEMFRS26;tethering;dxSpreadSheetInplaceRichEditRS26;FireDACADSDriver;dxSkinVisualStudio2013BlueRS26;dxRichEditCoreRS26;dxPSdxSpreadSheetLnkRS26;dxSkinSharpPlusRS26;FireDACMSSQLDriver;vcltouch;vcldb;dxPSTeeChartRS26;dxSkinFoggyRS26;dxSkinVisualStudio2013DarkRS26;dxSkinOffice2013DarkGrayRS26;dxGDIPlusRS26;dxAuthorizationAgentsRS26;dxPSdxFCLnkRS26;vclib;dxPSLnksRS26;FireDACDBXDriver;cxGridRS26;dxPsPrVwAdvRS26;dxPDFViewerRS26;dxSkinSpringTimeRS26;vclx;dxPScxTLLnkRS26;dxSkinOffice2010BlueRS26;RESTBackendComponents;dxSkinOffice2016DarkRS26;VCLRESTComponents;dxSkinMoneyTwinsRS26;dxSkinOffice2016ColorfulRS26;dxSkinValentineRS26;dxSkinHighContrastRS26;vclie;bindengine;CloudService;dxmdsRS26;FireDACMySQLDriver;dxdborRS26;DataSnapClient;dxSkinOffice2013WhiteRS26;dxFireDACServerModeRS26;bindcompdbx;DBXSybaseASEDriver;IndyIPServer;cxPivotGridRS26;IndySystem;dxSkinDarkRoomRS26;cxTreeListdxBarPopupMenuRS26;dsnapcon;cxTreeListRS26;dxPScxPivotGridLnkRS26;cxSchedulerRibbonStyleEventEditorRS26;dxPSCoreRS26;FireDACMSAccDriver;FireDACInfxDriver;fmxFireDAC;vclimg;dxSpreadSheetRS26;dxBarExtItemsRS26;dxPSdxGaugeControlLnkRS26;emshosting;dxSkinLondonLiquidSkyRS26;DBXOdbcDriver;FireDACTDataDriver;FMXTee;dxdbtrRS26;dxRichEditControlCoreRS26;soaprtl;DbxCommonDriver;dxFlowChartAdvancedCustomizeFormRS26;dxSkinLiquidSkyRS26;dxSkinSevenRS26;dxDockingRS26;xmlrtl;DataSnapNativeClient;soapmidas;fmxobj;cxLibraryRS26;rtl;emsserverresource;DbxClientDriver;DBXSybaseASADriver;cxDataRS26;dxPScxSchedulerLnkRS26;dxSpreadSheetConditionalFormattingDialogsRS26;appanalytics;dxRibbonCustomizationFormRS26;cxSchedulerGridRS26;IndyIPClient;bindcompvcl;dxSkinVisualStudio2013LightRS26;TeeUI;dxADOEMFRS26;VclSmp;FireDACODBCDriver;dxRibbonRS26;DataSnapIndy10ServerTransport;dxPScxCommonRS26;dxRichEditDocumentModelRS26;DataSnapProviderClient;FireDACMongoDBDriver;dxPScxGridLnkRS26;dxSkinDevExpressDarkStyleRS26;dxSpreadSheetCoreRS26;DataSnapServerMidas;RESTComponents;dxSkinGlassOceansRS26;DBXInterBaseDriver;ResizeKitPKD26;dxPScxExtCommonRS26;dxSkinPumpkinRS26;emsclientfiredac;dxSkinXmas2008BlueRS26;DataSnapFireDAC;dxSkinOffice2007SilverRS26;cxPageControlRS26;dxSkinTheBezierRS26;dxSkinDevExpressStyleRS26;DBXMSSQLDriver;dxRichEditControlRS26;DatasnapConnectorsFreePascal;dxGaugeControlRS26;dxorgcRS26;dxPScxVGridLnkRS26;bindcompfmx;dxSkinOffice2007PinkRS26;DBXOracleDriver;inetdb;dxSkinOffice2007BlueRS26;dxSkinStardustRS26;dxBarDBNavRS26;dxDBXServerModeRS26;dxSkinTheAsphaltWorldRS26;dxSkinSilverRS26;FmxTeeUI;emsedge;dxLayoutControlRS26;FireDACIBDriver;fmx;fmxdae;dxServerModeRS26;dxWizardControlRS26;dxSkinBlueprintRS26;dxSkiniMaginaryRS26;dxTabbedMDIRS26;dxEMFRS26;dbexpress;IndyCore;dxComnRS26;dsnap;DataSnapCommon;emsclient;dxSkinSharpRS26;FireDACCommon;DataSnapConnectors;cxSchedulerTreeBrowserRS26;dxADOServerModeRS26;soapserver;dxSkinOffice2007BlackRS26;cxPivotGridOLAPRS26;cxVerticalGridRS26;dxtrmdRS26;FireDACOracleDriver;DBXMySQLDriver;cxEditorsRS26;cxSchedulerRS26;cxSchedulerWebServiceStorageRS26;DBXFirebirdDriver;dxSkinMetropolisDarkRS26;dxSkinOffice2010BlackRS26;dxPSdxLCLnkRS26;FireDACCommonODBC;FireDACCommonDriver;dxMapControlRS26;dxSkinBlackRS26;dxSkinOffice2013LightGrayRS26;inet;dxSpellCheckerRS26;dxSkinCoffeeRS26;IndyIPCommon;dxSpreadSheetCoreConditionalFormattingDialogsRS26;vcl;dxPSdxDBOCLnkRS26;dxSkinMetropolisRS26;FireDACDb2Driver;dxSpreadSheetReportDesignerRS26;dxPScxPCProdRS26;dxNavBarRS26;tmsxlsdXE12;dxCoreRS26;cxExportRS26;TeeDB;FireDAC;dxThemeRS26;dxHttpIndyRequestRS26;dxPSPrVwRibbonRS26;dxSkinOffice2010SilverRS26;FireDACSqliteDriver;FireDACPgDriver;ibmonitor;FireDACASADriver;dxSkinSevenClassicRS26;cxPivotGridChartRS26;dxPSRichEditControlLnkRS26;dxPSDBTeeChartRS26;ibxpress;Tee;DataSnapServer;ibxbindings;dxPSdxDBTVLnkRS26;FireDACDSDriver;vclwinx;dxOfficeCoreRS26;dxTileControlRS26;dxSkinsCoreRS26;CustomIPTransport;vcldsnap;bindcomp;dxSkinLilianRS26;dxSkinSummer2008RS26;DBXInformixDriver;dxPSdxOCLnkRS26;dxSkinVS2010RS26;dxSkinBlueRS26;dbxcds;adortl;dxSkinMcSkinRS26;dxSkinDarkSideRS26;dxSpreadSheetCoreDialogsRS26;dxBarExtDBItemsRS26;dsnapxml;dbrtl;IndyProtocols;inetdbxpress;dxSkinOffice2007GreenRS26;dxRichEditInplaceRS26;dxSkinWhiteprintRS26;dxPSdxPDFViewerLnkRS26;dxSkinCaramelRS26;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+        <BT_BuildType>Debug</BT_BuildType>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1)'!=''">
         <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
@@ -86,6 +104,10 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+    </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
         <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
@@ -93,6 +115,10 @@
         <DCC_DebugInformation>0</DCC_DebugInformation>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
     </PropertyGroup>
@@ -104,9 +130,6 @@
             <Form>frmUtama</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="forms\uQueryDebugger.pas">
-            <Form>frmQueryDebugger</Form>
-        </DCCReference>
         <DCCReference Include="uDm.pas">
             <Form>dm</Form>
             <FormType>dfm</FormType>
@@ -115,12 +138,32 @@
         <DCCReference Include="forms\uSuratMasuk.pas">
             <Form>frmSuratMasuk</Form>
         </DCCReference>
-        <DCCReference Include="units\Override.Standard.pas"/>
         <DCCReference Include="forms\uSetting.pas">
             <Form>frmSetting</Form>
         </DCCReference>
         <DCCReference Include="forms\uSuratMasukInput.pas">
             <Form>frmSuratMasukInput</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\lib-helper\Override.Standard.pas"/>
+        <DCCReference Include="..\lib-helper\uQueryDebugger.pas">
+            <Form>frmQueryDebugger</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="forms\uJenisSurat.pas">
+            <Form>frmJenisSurat</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="forms\uJenisSuratDialog.pas">
+            <Form>frmDialogJenisSurat</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="forms\uMitra.pas">
+            <Form>frmMitra</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="forms\uMitraInput.pas">
+            <Form>frmMitraInput</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

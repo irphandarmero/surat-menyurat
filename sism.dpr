@@ -3,12 +3,16 @@ program sism;
 uses
   Vcl.Forms,
   uMain in 'uMain.pas' {frmUtama},
-  uQueryDebugger in 'forms\uQueryDebugger.pas' {frmQueryDebugger},
   uDm in 'uDm.pas' {dm: TDataModule},
   uSuratMasuk in 'forms\uSuratMasuk.pas' {frmSuratMasuk},
-  Override.Standard in 'units\Override.Standard.pas',
   uSetting in 'forms\uSetting.pas' {frmSetting},
-  uSuratMasukInput in 'forms\uSuratMasukInput.pas' {frmSuratMasukInput};
+  uSuratMasukInput in 'forms\uSuratMasukInput.pas' {frmSuratMasukInput},
+  Override.Standard in '..\lib-helper\Override.Standard.pas',
+  uQueryDebugger in '..\lib-helper\uQueryDebugger.pas' {frmQueryDebugger},
+  uJenisSurat in 'forms\uJenisSurat.pas' {frmJenisSurat},
+  uJenisSuratDialog in 'forms\uJenisSuratDialog.pas' {frmDialogJenisSurat},
+  uMitra in 'forms\uMitra.pas' {frmMitra},
+  uMitraInput in 'forms\uMitraInput.pas' {frmMitraInput};
 
 {$R *.res}
 
@@ -17,8 +21,12 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmUtama, frmUtama);
   Application.CreateForm(Tdm, dm);
-  Application.CreateForm(TfrmQueryDebugger, frmQueryDebugger);
   Application.CreateForm(TfrmSuratMasuk, frmSuratMasuk);
   Application.CreateForm(TfrmSetting, frmSetting);
+  Application.CreateForm(TfrmQueryDebugger, frmQueryDebugger);
+  Application.CreateForm(TfrmJenisSurat, frmJenisSurat);
+  Application.CreateForm(TfrmDialogJenisSurat, frmDialogJenisSurat);
+  Application.CreateForm(TfrmMitra, frmMitra);
+  Application.CreateForm(TfrmMitraInput, frmMitraInput);
   Application.Run;
 end.

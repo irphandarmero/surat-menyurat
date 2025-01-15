@@ -23,8 +23,6 @@ object frmSuratMasuk: TfrmSuratMasuk
     Height = 60
     Align = alTop
     TabOrder = 0
-    ExplicitLeft = 48
-    ExplicitTop = 8
     DesignSize = (
       1280
       60)
@@ -60,14 +58,5 @@ object frmSuratMasuk: TfrmSuratMasuk
     Align = alClient
     Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect]
     TabOrder = 1
-    ExplicitLeft = 392
-    ExplicitTop = 240
-    ExplicitWidth = 320
-    ExplicitHeight = 120
-  end
-  object vTemp: TVirtualTable
-    Left = 1064
-    Top = 336
-    Data = {04000000000000000000}
   end
 end

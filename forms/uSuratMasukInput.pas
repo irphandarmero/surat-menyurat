@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls,
-  uQueryDebugger, Vcl.ExtCtrls;
+  uQueryDebugger, Vcl.ExtCtrls, uDm, Override.Standard;
 
 type
   TfrmSuratMasukInput = class(TForm)
@@ -45,7 +45,7 @@ implementation
 
 {$R *.dfm}
 
-uses uDm, uJenisSuratDialog;
+uses uJenisSuratDialog;
 
 procedure TfrmSuratMasukInput.btJenisSuratClick(Sender: TObject);
 begin

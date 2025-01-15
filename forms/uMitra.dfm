@@ -13,6 +13,7 @@ object frmMitra: TfrmMitra
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 17
   object pnTop: TPanel
@@ -22,7 +23,6 @@ object frmMitra: TfrmMitra
     Height = 60
     Align = alTop
     TabOrder = 0
-    ExplicitWidth = 1280
     DesignSize = (
       1290
       60)
@@ -55,9 +55,5 @@ object frmMitra: TfrmMitra
     Height = 550
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = 488
-    ExplicitTop = 256
-    ExplicitWidth = 320
-    ExplicitHeight = 120
   end
 end

@@ -147,8 +147,8 @@ object frmSuratMasukInput: TfrmSuratMasukInput
     TextHint = 'Jenis Surat'
   end
   object btMitra: TButton
-    Left = 487
-    Top = 135
+    Left = 484
+    Top = 149
     Width = 75
     Height = 25
     Caption = 'Mitra'

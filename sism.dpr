@@ -12,7 +12,8 @@ uses
   uJenisSurat in 'forms\uJenisSurat.pas' {frmJenisSurat},
   uJenisSuratDialog in 'forms\uJenisSuratDialog.pas' {frmDialogJenisSurat},
   uMitra in 'forms\uMitra.pas' {frmMitra},
-  uMitraInput in 'forms\uMitraInput.pas' {frmMitraInput};
+  uMitraInput in 'forms\uMitraInput.pas' {frmMitraInput},
+  uMitraDialog in 'forms\uMitraDialog.pas' {frmDialogMitra};
 
 {$R *.res}
 
@@ -28,5 +29,6 @@ begin
   Application.CreateForm(TfrmDialogJenisSurat, frmDialogJenisSurat);
   Application.CreateForm(TfrmMitra, frmMitra);
   Application.CreateForm(TfrmMitraInput, frmMitraInput);
+  Application.CreateForm(TfrmDialogMitra, frmDialogMitra);
   Application.Run;
 end.

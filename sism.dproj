@@ -166,6 +166,10 @@
             <Form>frmMitraInput</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="forms\uMitraDialog.pas">
+            <Form>frmDialogMitra</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

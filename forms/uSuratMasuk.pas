@@ -17,7 +17,6 @@ type
     sbSearch: TSearchBox;
     btAdd: TButton;
     sgSuratMasuk: TStringGrid;
-    vTemp: TVirtualTable;
     procedure btAddClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure sbSearchChange(Sender: TObject);

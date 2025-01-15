@@ -13,6 +13,7 @@ object frmSuratMasuk: TfrmSuratMasuk
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 17
   object pnTop: TPanel
@@ -22,63 +23,51 @@ object frmSuratMasuk: TfrmSuratMasuk
     Height = 60
     Align = alTop
     TabOrder = 0
+    ExplicitLeft = 48
+    ExplicitTop = 8
     DesignSize = (
       1280
       60)
     object sbSearch: TSearchBox
-      Left = 96
-      Top = 15
-      Width = 121
+      Left = 978
+      Top = 17
+      Width = 193
       Height = 25
+      Anchors = [akTop, akRight]
       TabOrder = 0
       TextHint = 'Type '
+      OnChange = sbSearchChange
     end
     object btAdd: TButton
-      Left = 1033
-      Top = 15
+      Left = 1177
+      Top = 14
       Width = 75
-      Height = 32
+      Height = 30
       Anchors = [akTop, akRight]
-      Caption = 'Tambah'
+      Caption = 'Baru'
       ImageIndex = 4
       Images = dm.imlIcons16
       TabOrder = 1
       OnClick = btAddClick
     end
-    object btEdit: TButton
-      Left = 1113
-      Top = 15
-      Width = 75
-      Height = 32
-      Anchors = [akTop, akRight]
-      Caption = 'Ubah'
-      ImageIndex = 6
-      Images = dm.imlIcons16
-      TabOrder = 2
-    end
-    object btDelete: TButton
-      Left = 1193
-      Top = 15
-      Width = 75
-      Height = 32
-      Anchors = [akTop, akRight]
-      Caption = 'Hapus'
-      ImageIndex = 8
-      Images = dm.imlIcons16
-      TabOrder = 3
-    end
   end
-  object DBGrid1: TDBGrid
-    Left = 0
-    Top = 60
-    Width = 1280
-    Height = 540
+  object sgSuratMasuk: TStringGrid
+    AlignWithMargins = True
+    Left = 3
+    Top = 63
+    Width = 1274
+    Height = 534
     Align = alClient
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect]
     TabOrder = 1
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -13
-    TitleFont.Name = 'Segoe UI'
-    TitleFont.Style = []
+    ExplicitLeft = 392
+    ExplicitTop = 240
+    ExplicitWidth = 320
+    ExplicitHeight = 120
+  end
+  object vTemp: TVirtualTable
+    Left = 1064
+    Top = 336
+    Data = {04000000000000000000}
   end
 end
